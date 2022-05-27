@@ -2,16 +2,21 @@ body{
     background-color: #0d192c;
 }
 
-/* .container-principal{
-    text-align: center;
-} */
+.container-principal{
+    /* margin: 20px; */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 80px;
+}
 
 .card-nft{
     width: 350px;
     height: 596px;
     background-color: #15263f;
     border-radius: 18px;
-
+    align-self: center;
+    text-align: center;
 }
 
 .img-card{
