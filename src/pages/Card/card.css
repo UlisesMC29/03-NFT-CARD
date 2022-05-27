@@ -1,0 +1,135 @@
+body{
+    background-color: #0d192c;
+}
+
+/* .container-principal{
+    text-align: center;
+} */
+
+.card-nft{
+    width: 350px;
+    height: 596px;
+    background-color: #15263f;
+    border-radius: 18px;
+
+}
+
+.img-card{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.img-nft{
+    width: 302px;
+    border-radius: 10px;
+}
+
+.body-card{
+    padding: 0px 25px 0px 25px;
+}
+
+.title{
+    font-size: 22px;
+    /* padding-left: 25px; */
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    color: white;
+}
+
+.text-body{
+    text-align: left;
+    font-weight: 150;
+    font-size: 18px;
+    color: #8bacd9;
+    
+}
+
+
+.body-contain{
+    width: 302px;
+    display:inline-flex; 
+    /* align-items: center; */
+}
+
+
+/* ----------Contenido-------------------- */
+.icon-ethe{
+    width: 11px;
+}
+
+.ethe-contain{
+    display: flex;
+    align-items: center;
+}
+
+.clock-contain{
+    align-items: center;
+    display: flex;
+    padding-left: 85px;
+
+}
+
+.txt-clock{
+    padding-left: 7px;
+    font-weight: 200;
+    color: #8bacd9;
+    margin: 15px 0px ;
+}
+
+.icon-clock{
+    width: 18px;
+    /* padding-left: 15px; */
+    margin: 0px 0px 0px 15px;
+}
+/* ------------------------------------- */
+
+.price-text{
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #00fff8;
+}
+
+hr{
+
+    border: none;
+    height: 0.5px;
+    background: rgb(255, 255, 255, 0.2);
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.icon-user{
+    width: 33px;
+    background-color: #ffff;
+    padding: 1px;
+    width: 33px;
+    border-radius: 50px;
+    margin: 5px 0px 16px 0px;
+}
+
+.name-container{
+    display: flex;
+    align-items: center;
+}
+
+.txt-footer{
+    /* padding-left: 10px; */
+    color: white;
+    margin: 5px 0px 16px 14px;
+    color: #8bacd9;
+    font-weight: 280;
+}
+
+.name-user{
+    
+    /* padding-left: 10px; */
+    color: white;
+    margin: 5px 0px 16px 5px;
+    font-weight: 350;
+}
