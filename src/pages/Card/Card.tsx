@@ -4,6 +4,7 @@ import nftImg from '../../images/image-equilibrium.jpg';
 import iconEthe from '../../images/icon-ethereum.svg';
 import iconClock from '../../images/icon-clock.svg';
 import iconUser from '../../images/image-avatar.png';
+import imgView from '../../images/icon-view.svg';
 
 export const Card = () => {
     return (
@@ -11,6 +12,9 @@ export const Card = () => {
             <div className='card-nft'>
                 <div className='img-card'>
                     <img className='img-nft' src={nftImg} alt="imagen nft" />
+                    <div className='capa'>
+                        <img className='img-view' src={imgView} alt="imagen de lupa" />
+                    </div>
                 </div>
                 <div className='body-card'>
                     <p className='title'>Equilibrium #3429</p>
